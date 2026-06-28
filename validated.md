@@ -23,6 +23,12 @@ Opportunities here have at least one of: a documented case study, sourced pricin
 ### AI-Augmented Cold Email / Appointment-Setting Agency
 - Sourced retainer pricing ($1,500–8,000/mo) and a disclosed revenue-model breakdown (6–8 clients × $2,500–3,500/mo ≈ $20k/mo) from an industry source specializing in this exact business model. Long operating history as a category (pre-AI) means the agency-economics numbers are credible even though the AI-specific edge is now commoditized.
 
+### AI Healthcare/Dental Practice Patient Communication & Recall *(promoted from "not yet validated" 2026-06-28)*
+- Real disclosed case study: Arini (YC-backed) reports $56k in recovered production value in 30 days.
+- Sourced cost comparison: AI receptionist/recall services $199–900/mo all-in vs. $55–78k/yr fully-loaded in-house front-desk hire vs. $600–1,200/mo traditional human answering service.
+- Sourced reactivation arbitrage: new-patient acquisition ~$312 vs. dormant-patient reactivation ~$12 (26x cheaper); practices with 25–40% of patients overdue for recall represent $150k–240k/yr in unclaimed production.
+- Gap: still no disclosed example of a third-party *agency* selling this as a managed service across multiple practice clients (Arini and similar are software vendors selling direct, not an agency reselling/managing across clients) — the underlying economics are proven, the agency-on-top model is not yet.
+
 ## Partially validated (real market data, no disclosed comparable business)
 
 ### AI/GEO Content Agency for B2B/SaaS
@@ -34,6 +40,18 @@ Opportunities here have at least one of: a documented case study, sourced pricin
 ### AI-Powered Reputation/Review Management Service
 - Pricing landscape is well-documented across many vendors. Validated as a real, already-commoditized market — which is itself useful signal (low ceiling, easy entry, hard differentiation).
 
+### AI-Powered E-commerce Listing Optimization Agency *(promoted from "not yet validated" 2026-06-28)*
+- Competitor pricing now sourced from Upwork/Fiverr: $75–500/SKU for basic rewrites, $300–800 for premium specialists. Confirms the market exists and has a real price floor/ceiling, but still no disclosed example of an agency (vs. solo freelancer) revenue at scale in this niche.
+
+### AI Real Estate Marketing Content & Lead-Nurture Service *(promoted from "not yet validated" 2026-06-28)*
+- Competitor pricing now sourced: Write.Homes (DIY tool) $8–80/mo; FlyDragon (AI-native agency) $799/mo with market exclusivity. Adoption stats sourced: 72% of agents already use AI tools daily; ~89% of top agents projected on AI-CRMs in 2026. Confirms real demand and a real price anchor, but also confirms higher competitive density than initially scored — see caveat in `opportunities.md` #12.
+
+### AI Voice Agent for Insurance Agencies *(new 2026-06-28)*
+- Sourced adoption stat: 98% of insurance agencies report planning AI investment in 2026. Sourced market sizing: AI-in-insurance market ~$7.7B (2024) → $13B+ (2026). Sourced deployment/ROI claims: first-ring pickup deployable in <30 days; automated pre-renewal calls recover 5–8 producer-hours/week. No single disclosed case study (company name + numbers) found yet — sourced from industry/vendor blogs, not an audited deployment like ISpeedToLead. Treat as the same confidence tier as the original Speed-to-Lead pick before its ISpeedToLead case study was found; worth a dedicated case-study search next run.
+
+### AI Automation Agency — YouTube Channel Management *(reclassified 2026-06-28, evidence found but caveated)*
+- Real, disclosed revenue case studies now exist (Noah Morris/NexLev: ~20 channels, 2.5M+ subscribers; Matt Par: 12+ channels, 2M+ subscribers, 1B+ views; documented $10k/mo three-channel stack). **However**, these case studies validate the *content arbitrage* (faceless AI-assisted channels can make real money), not the *agency model* (third parties paying a retainer for someone else to manage their channel) — no disclosed example of the latter was found. Kept out of "strongly validated" for this reason; see caveat in `opportunities.md` #7.
+
 ## Not yet validated (flagged speculative in opportunities.md)
 
-AI Automation Agency (YouTube), AI Healthcare Patient Communication, AI Legal/Immigration Document Service, AI Real Estate Marketing, AI E-commerce Listing Optimization — single-source or no-source claims this run. Next run should prioritize sourcing real pricing comps and forum pain points for these five before trusting their scores.
+AI Legal/Immigration Document Service (regulatory risk now actively reinforced by a real Nippon v. OpenAI lawsuit over AI/UPL — if anything, *more* caution warranted, not less), AI Compliance/Financial-Services Agency (new this run, single-source claim only), AI Podcast Production-as-a-Service (new this run, pricing sourced but no disclosed agency case study), AI Translation/Localization Arbitrage (new this run, cost data well-sourced but no disclosed service-agency example, only software vendors), AI Estimating/Quoting Reseller (new this run), AI Recruiting/Resume-Screening Service (new this run), AI Restaurant Marketing/Menu Optimization (new this run), AI Local SEO/GEO Citation for SMBs (new this run, pricing sourced from sellers of the exact service — treat as upper-bound anchoring not proof). Next run should prioritize finding a disclosed comparable business (not just a tool vendor) for each of these.
