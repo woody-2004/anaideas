@@ -9,9 +9,10 @@ Legend: **SC** = Startup Cost (10=cheap), **TTR** = Time to First Revenue (10=da
 ## Batch 2026-06-27 (initial run — 14 opportunities)
 
 ### 1. AI Speed-to-Lead Voice/SMS Agent for Local Service Businesses
-**Score: 77/100 — Tier: $50k/mo**
+**Score: 76/100 (was 77; revised 2026-06-29) — Tier: $50k/mo**
 AI voice agent calls/texts every new inbound lead (HVAC, plumbing, roofing, dental, legal intake) within seconds of form-fill, qualifies, and books the appointment, 24/7.
-- SC 8, TTR 8, Comp 5, Scale 8, Like 8, AI-Lev 9, CAS 8
+- SC 8, TTR 8, Comp 5, Scale 8, Like 7 (↓ from 8), AI-Lev 9, CAS 8
+- **2026-06-29 caveat (score lowered for this reason)**: TCPA litigation risk for outbound AI voice calling has escalated sharply — the FCC has confirmed TCPA applies to AI-generated voices, 2025–2026 settlements have run $5M–$20M (e.g., Gen Digital/Norton settled for $9.95M in Jan 2026), a Feb 2026 case (MortgageOne) established vendor-liability exposure for the AI calling platform itself (not just the business using it), and statutory damages run $500–$1,500/call, uncapped. This doesn't kill the business model — it's inbound-lead response, not cold outbound, which is a meaningfully lower-risk pattern than the insurance vertical's renewal-reminder calls — but consent capture, opt-out handling, and call-recording disclosure (two-party-consent states) need to be a real, budgeted line item before scaling past a handful of pilot clients, not an afterthought.
 - Evidence: MIT Lead Response Management study — odds of contacting a lead drop 100x at 30min vs 5min after inquiry; qualification odds drop 21x over the same window. ISpeedToLead (Retell AI case study) compressed response to <5min and booked 20–30 qualified demos/week. A Nashville service firm reportedly converted $8k/mo ad spend into a $2k AI investment for ~450% ROI by Q2 2026. Cost math: ~$0.40/AI call vs $7–12/human call; full 24/7 human coverage requires ~5.4 FTEs (~$330k/yr loaded cost) vs $300–2,500/mo for a managed AI deployment.
 - Sources: [Retell AI case study](https://www.retellai.com/case-study/ispeedtolead-retell-ai-lead-response-case-study), [Aircall AI voice agent cost](https://aircall.io/blog/best-practices/ai-voice-agent-cost/), [FinancialContent speed-to-lead](https://www.financialcontent.com/article/marketersmedia-2026-6-6-speed-to-lead-guide-released-why-fast-response-wins-more-customers)
 
@@ -123,17 +124,19 @@ AI drafts first-pass intake forms, petitions, and document packets for solo atto
 ## Batch 2026-06-28 (8 new opportunities)
 
 ### 15. AI Voice Agent for Insurance Agencies (Lead Intake + Renewal Follow-up)
-**Score: 73/100 — Tier: $50k/mo**
+**Score: 71/100 (was 73; revised 2026-06-29) — Tier: $50k/mo**
 Managed AI voice agent for independent insurance agencies: instant pickup on inbound quote calls, plus automated outbound renewal-reminder calls at the 90/60/30-day marks before policy expiration, with handoff to a producer for binding.
-- SC 8, TTR 7, Comp 5, Scale 8, Like 7, AI-Lev 9, CAS 7
+- SC 8, TTR 7, Comp 5, Scale 8, Like 6 (↓ from 7), AI-Lev 9, CAS 7
+- **2026-06-29 caveats**: (1) Dedicated search this run found no disclosed named-company case study for an AI voice-agent agency in insurance — all evidence remains vendor/tool-blog claims (Sonant AI, Floatbot, Thoughtly, CloudTalk marketing to agencies, not disclosing their own client numbers). Still in the same "vendor evidence only" tier as last run despite a focused search attempt. (2) TCPA risk applies here more acutely than to #1: the 90/60/30-day renewal calls are outbound, not inbound-response, which is the higher-risk TCPA pattern (see #1's caveat for sourced settlement/litigation data) — scored down accordingly.
 - Evidence: 98% of insurance agencies report planning AI investment in 2026 — this is a vertical actively budgeting for this, not one that needs to be convinced. Sourced deployment claim: agencies can stand up "first-ring pickup" with insurance-trained voice agents in under 30 days. Sourced time-recovery: automated 90/60/30-day pre-renewal outbound calls recover 5–8 producer-hours/week. AI-in-insurance market sized at ~$7.7B (2024) growing to $13B+ (2026).
 - Sources: [Perspective AI — AI for insurance agencies 2026](https://getperspective.ai/blog/ai-for-insurance-agencies-in-2026-from-lead-capture-to-renewals), [ResourcePro — AI in insurance agencies 2026](https://www.resourcepro.com/blogs/why-ai-in-insurance-agencies-is-defining-2026), [Sonant AI — AI changing insurance industry](https://www.sonant.ai/blog/how-ai-is-changing-the-insurance-industry)
 - Caveat: this is the same core playbook as #1 (Speed-to-Lead) applied to a new vertical, not a structurally different business — treat as strong evidence for #1's "multi-vertical expansion" thesis rather than a standalone #1 contender. AMS (agency management system) write-back integration work is a real, vertical-specific moat but also a real implementation cost that generic local-service deployments don't have.
 
 ### 16. AI Local SEO / GEO Citation & Entity Optimization for SMBs
-**Score: 60/100 — Tier: $50k/mo**
+**Score: 59/100 (was 60; revised 2026-06-29) — Tier: $50k/mo**
 Distinct from entry #3 (B2B/SaaS GEO content agency): focused specifically on local-business citation consistency, entity/brand-mention building, and local AI-answer-engine visibility (being recommended by ChatGPT/Perplexity for "best plumber near me"-type queries), sold to SMBs and multi-location brands rather than SaaS companies.
-- SC 7, TTR 6, Comp 4, Scale 7, Like 6, AI-Lev 6, CAS 6
+- SC 7, TTR 6, Comp 3 (↓ from 4), Scale 7, Like 6, AI-Lev 6, CAS 6
+- **2026-06-29 caveat (score lowered for this reason)**: dedicated validation pass found no independent buyer-side case study — still only seller-published pricing/claims. New risk signal: multiple competing "Top 12 GEO agencies" listicles surfaced, indicating the category is already crowding with agencies faster than demand-side proof is accumulating.
 - Evidence: Sourced tiered pricing: dedicated AI citation monitoring $1,000–3,000/mo; brand-mention building $2,500–8,000/mo; entity optimization $3,000–10,000/mo. AI SEO agencies reportedly charge 30–50% more than traditional SEO providers for this work. Explicit market warning sourced: pricing below ~$1,000/mo signals "thin, automated work" — i.e., there's a real price floor protecting margin for legitimate operators.
 - Sources: [Stackmatix — AI SEO agency pricing 2026](https://www.stackmatix.com/blog/ai-seo-agency-pricing), [Digital Success — AI local SEO agency 2026](https://www.digitalsuccess.us/blog/ai-local-seo-agency-services-pricing-how-to-choose-one-2026.html)
 - Caveat: pricing data is from agency-side marketing blogs (selling these exact services), not independent analysts — directionally useful but treat as upper-bound anchoring, not proof of achievable price for a new entrant.
@@ -163,9 +166,10 @@ Resell AI-orchestrated translation/localization (using LLM-based MT + light huma
 - Caveat: lowest Customer Acquisition Speed score in this batch (CAS 4) — buyers are mostly mid-market/enterprise companies expanding globally, which tends toward longer evaluation cycles than the SMB plays elsewhere on this list; also competes directly with well-funded incumbents (Lokalise, Smartling, Crowdin) who already sell the AI-orchestration model themselves.
 
 ### 20. AI Estimating/Quoting Tool Setup & Management Service for Contractors
-**Score: 57/100 — Tier: $10k/mo**
+**Score: 56/100 (was 57; revised 2026-06-29) — Tier: $10k/mo**
 Done-for-you setup, training, and ongoing management of AI photo-based quoting tools (QuoteIQ-style) for roofing/siding/concrete contractors who don't want to self-serve onboard software themselves.
-- SC 8, TTR 6, Comp 4, Scale 5, Like 5, AI-Lev 6, CAS 6
+- SC 8, TTR 6, Comp 3 (↓ from 4), Scale 5, Like 5, AI-Lev 6, CAS 6
+- **2026-06-29 caveat (score lowered for this reason)**: dedicated search found no evidence of demand for the "AI tool setup/management" service specifically — only the underlying self-serve tools (QuoteIQ, Beam AI) and unrelated traditional outsourced-estimating firms (non-AI, e.g. worldestimating.com) advertising similar overhead-reduction claims (up to 50%) via old-school human estimating. Real risk: the service this entry proposes may already be commoditized/pre-empted by non-AI outsourced estimating firms rather than facing direct AI-native competition — a structurally different (and more discouraging) competitive picture than "low competition because it's new."
 - Evidence: Sourced underlying tool economics: AI photo-based estimating tools turn a job-site walkthrough into a quote in 4–7 minutes vs. 20–34 minutes manually; tool pricing itself is cheap ($30–300/mo).
 - Sources: [QuoteGoat — best AI construction estimating software 2026](https://quotegoat.ai/blog/best-ai-construction-estimating-software-for-contractors-in-2026), [Brainroad — AI quoting software for contractors 2026](https://brainroad.com/ai-quoting-software-for-contractors/)
 - Caveat: thin moat — the underlying tools are cheap and self-serve, so the only thing being sold is setup/training/management, which contractors can often do themselves in an afternoon. Lower scale ceiling than other entries in this batch as a result.
@@ -189,3 +193,75 @@ AI-driven menu engineering (item placement, dynamic pricing suggestions, mix ana
 ---
 
 *Entries 15–22 first logged 2026-06-28. Future runs: append new opportunities under a new dated batch heading; do not re-log existing entries unless new evidence changes their score.*
+
+---
+
+## Batch 2026-06-29 (8 new opportunities)
+
+### 23. AI Accounts-Receivable / Collections-as-a-Service for SMBs (B2B invoice chasing)
+**Score: 73/100 — Tier: $100k/mo**
+Outsourced AR follow-up: an AI agent (voice/email/SMS) chases overdue B2B invoices for small-to-mid companies (20–200 employees) who can't justify a full-time collections hire. Priced as a success fee (% of recovered AR) or flat monthly retainer.
+- SC 7, TTR 7, Comp 6, Scale 8, Like 7, AI-Lev 9, CAS 7
+- Evidence: AgentCollect (YC-backed) reportedly serves 458 customers including DoorDash and Checkr, handles up to 85,000 collections actions/day, success-fee model starting at 10.9% — found via search snippet; direct fetch of the source page returned a 403, so treat as secondhand-but-specific rather than independently verified, and re-attempt a direct fetch next run. Generic AR-automation case: a 20-employee company cut manual invoice follow-up from 10+ hrs/week to <2 hrs/week with a custom agent. AI in AR reduces DSO by 15–33 days and per-invoice processing cost by up to 80%. Global debt-collection software market sized at $4.8B (2025) → $11.3B (2033E).
+- Sources: [AgentCollect (YC)](https://www.ycombinator.com/companies/agentcollect), [Syntora AR automation case](https://syntora.io), [Transformance AR automation](https://transformance.ai), [HighRadius AR AI](https://highradius.com), [HES FinTech debt collection market sizing](https://hesfintech.com)
+- Notable structural advantage vs. this project's outbound-voice-agent picks: this is B2B commercial-debt collection, which falls largely outside FDCPA and carries materially lower TCPA exposure than consumer-facing outbound calling (see #1 and #15 caveats) — a real regulatory-risk edge, not just a scoring artifact. Strongest new challenger to the current #1 pick this run; recommend a dedicated case-study/verification pass next run before considering promotion.
+
+### 24. AI Medical Claim Denial Appeal Agency (for Providers/Practices)
+**Score: 70/100 — Tier: $50k/mo**
+Done-for-you service that ingests denial letters/EOBs from small medical/dental practices, auto-drafts payer-specific appeal letters with AI, and files them — charged as a % of recovered revenue or a flat per-appeal fee, undercutting traditional RCM/billing-recovery firms.
+- SC 8, TTR 6, Comp 6, Scale 8, Like 6, AI-Lev 9, CAS 6
+- Evidence: Claim denial rates hit 10–15% industry average in 2026, with practices reporting >5% denial rates nearly doubling YoY; prior-auth denials up 31% YoY. AI tools cut appeal-drafting time from ~1 hour to under 5 minutes. Claimable (patient-facing) reports an 80% appeal success rate and was profiled by Bloomberg with Mark Cuban backing (April 2026). Competitors (CombineHealth, Counterforce Health, NYX Health AI, Fight Health Insurance) are mostly patient-facing/freemium today, leaving a B2B "agency for small practice groups" niche open.
+- Sources: [Medical Billers & Coders denial stats](https://medicalbillersandcoders.com), [AMA prior-auth survey](https://ama-assn.org), [InsightHealth.ai appeal drafting](https://insighthealth.ai), [AInvest — Claimable](https://ainvest.com), [Bloomberg — Claimable/Mark Cuban](https://bloomberg.com)
+- Gap: no direct pricing found for a pure B2B agency-to-practice model (existing case studies are patient-facing) — this is the open question to validate next run.
+
+### 25. AI Fitness/Gym Lead-Recovery & Reactivation Agency
+**Score: 70/100 — Tier: $10k/mo**
+Niche-specific AI voice/SMS follow-up and win-back campaigns sold specifically to gyms/studios/boutique fitness — packaged churn/reactivation playbooks, not just generic initial-lead response (distinct from #1's general local-service model).
+- SC 8, TTR 7, Comp 5, Scale 6, Like 7, AI-Lev 8, CAS 8
+- Evidence: 67% of gym inquiries unanswered within 1 hour never convert; 39% of inbound gym calls never reach a live person; 88% of connected leads get zero follow-up. Disclosed vendor case studies: Gold's Gym DC Metro saw a 9.9x increase in lead capture after deploying an AI receptionist across 20 locations; Club 24 Concept Gyms automated 6,000+ calls/month. Reported lift: 30% better inquiry-to-membership conversion, 25% fewer no-shows, 15–20% more PT/add-on sales.
+- Sources: [Replify.ai gym AI receptionist case studies](https://replify.ai), [OscarChat fitness AI](https://oscarchat.ai)
+- Caveat: case studies are vendor-published (Replify itself), not independently audited — and per-location price point is modest ($300–800/mo), so this is a volume-of-small-accounts play capped at the $10k/mo tier.
+
+### 26. AI Salon/Spa/Med-Spa Rebooking & Retention Specialist Agency
+**Score: 69/100 — Tier: $10k/mo**
+Vertical-specific AI agent focused narrowly on predictive rebooking (texts clients in their personal "due for next appointment" window) and no-show reduction, sold to independent salons/spas/med-spas as a retention specialist rather than a general booking tool.
+- SC 8, TTR 7, Comp 5, Scale 6, Like 7, AI-Lev 7, CAS 8
+- Evidence: AI text reminders cut no-shows 30–50%. Disclosed case study: a Sydney beauty salon's rebooking rate rose from 40% to 78% within six months using predictive rebooking triggers fired 7 days before a client's typical rebooking window. A med spa reportedly increased captured revenue 40% in 90 days after deploying an AI inquiry assistant. Anolla reports 33.1% better workstation utilization and 68% fewer double-bookings.
+- Sources: [TheStacc salon rebooking case study](https://thestacc.com), [Heartcraft Media med-spa case](https://heartcraftmedia.com), [Anolla scheduling stats](https://anolla.com)
+- Caveat: single-anecdote, vendor-published case studies; low per-account price point ($200–500/mo) caps this at $10k/mo without high account volume.
+
+### 27. AI Donor/Member Communication & Fundraising-Copy Agency for Churches & Small Nonprofits
+**Score: 64/100 — Tier: $10k/mo**
+Managed service (not a SaaS tool) handling AI-personalized donor segmentation, thank-you messaging, campaign copy, and bulletin/newsletter drafting for churches and small nonprofits that can't afford a marketing hire — distinct from #3's B2B/SaaS GEO content agency.
+- SC 9, TTR 6, Comp 7, Scale 4, Like 5, AI-Lev 8, CAS 6
+- Evidence: Over 30% of nonprofits reported increased fundraising revenue in the past year after adopting AI tools. AI can segment donors by giving history to personalize thank-you/impact messaging, adjusting tone by donor tenure. Existing software (ChurchRaise, Pushpay) confirms category validation but sells tools, not a white-glove managed service.
+- Sources: [Rosica nonprofit AI fundraising stat](https://rosica.com), [Mennonite USA / Pushpay donor messaging](https://mennoniteusa.org)
+- Caveat: the "managed-service gap" is the researcher's inference, not directly sourced — needs a dedicated demand-validation pass. Budget ceiling of churches/small nonprofits ($200–1,000/mo typical) is the binding constraint on scale.
+
+### 28. AI Dispatch-as-a-Service for Small Trucking Carriers (3–15 trucks)
+**Score: 60/100 — Tier: $50k/mo**
+Outsourced AI-assisted dispatch desk for owner-operators/small fleets too small to hire a dedicated dispatcher — AI scans load boards, negotiates/books loads, handles driver check-ins and paperwork; charged per-truck/month or as a % of gross freight booked.
+- SC 6, TTR 5, Comp 5, Scale 7, Like 6, AI-Lev 8, CAS 5
+- Evidence: Only 29% of carriers currently use AI for load acceptance/dispatch, but 72% of fleet executives plan to adopt AI within two years — a clear adoption gap. AI dispatch reportedly reduces deadhead miles 10–20% vs. manual load-board sourcing (Convoy data). Tools explicitly target "carriers running 3+ trucks where a single dispatcher is juggling too much."
+- Sources: [OTR Solutions AI adoption survey](https://otrsolutions.com), [Numeo.ai trucking AI dispatch](https://numeo.ai)
+- Caveat: requires real load-board/ELD integration knowledge (higher startup friction than a pure software-wrapper play); trust-building with owner-operators is slower than typical retail SMB sales.
+
+### 29. AI Grant-Writing/RFP-Response Agency for Small Nonprofits & GovCon Subcontractors
+**Score: 60/100 — Tier: $10k/mo**
+Done-for-you grant/RFP writing using AI drafting tools as the production engine, undercutting traditional $3,500–$20,000 human grant-writer/proposal-consultant fees, with a human reviewing the final AI-assisted draft.
+- SC 8, TTR 5, Comp 6, Scale 5, Like 5, AI-Lev 8, CAS 5
+- Evidence: Traditional grant writers charge $75–200/hr or $3,000–15,000+ per proposal. AI grant tools cut writing time 70–90% (one cited example: a nonprofit won a $30K grant within the tool's first month of use). AI proposal tools for GovCon reportedly reduce labor hours 60–80%, saving $5,000–$20,000 in staff time per proposal, with 15–30% reported win-rate improvements.
+- Sources: [Funding for Good grant-writer rates](https://fundingforgood.org), [GrantAssistant.ai](https://grantassistant.ai), [BidAra GovCon AI proposals](https://bidara.ai)
+- Important sourced constraint: FAR Part 31 / 2 CFR Part 200 explicitly prohibit contingent/success fees on SBIR and most federal grants — this MUST be billed flat-fee or hourly, which caps upside below the success-fee models elsewhere in this batch (e.g. #23, #24).
+
+### 30. AI Senior-Living/Assisted-Living Family Communication & Compliance Reporting Service
+**Score: 56/100 — Tier: $10k/mo**
+White-label AI agent service for small/independent assisted-living and memory-care operators (not the large chains already served by Sensi AI/LifeLoop/OneAI) — automates daily family-update generation from caregiver activity logs, fall-risk flagging, and state-required documentation as a managed service.
+- SC 6, TTR 4, Comp 6, Scale 6, Like 5, AI-Lev 8, CAS 4
+- Evidence: Senior living market sized at ~$94.2B (2023) projected to $150.42B by 2029 (secondhand citation, original source not independently confirmed this run). LLM apps can generate personalized family updates from caregiver activity logs. AI fall-prediction protocols show 20–35% reductions in fall incidents at adopting communities. Enterprise players (Sensi AI, LifeLoop — 4,700+ communities; OneAI used by Brookdale/Sunrise/Atria) confirm market validation but target large chains.
+- Sources: [AllSeniors fall-prediction stats](https://allseniors.org), enterprise vendor sites (Sensi AI, LifeLoop, OneAI)
+- Caveat: the "small-operator gap" is the researcher's own inference, not directly sourced. HIPAA-adjacent compliance overhead and resident-data liability concerns slow sales cycles (CAS 4, the lowest in this batch) and raise the bar vs. typical SMB plays.
+
+---
+
+*Entries 23–30 first logged 2026-06-29. Cross-cutting finding from this run's validation pass (see `validated.md` "Risk Signals" section): a sharp escalation in TCPA litigation exposure for outbound AI voice calling, and a general market-headwind stat (60–70% of "AI wrapper" agencies reportedly generate zero revenue; only 3–5% exceed $10k MRR) — both noted as caveats on relevant entries above rather than as standalone opportunities. Future runs: append new opportunities under a new dated batch heading; do not re-log existing entries unless new evidence changes their score.*

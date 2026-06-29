@@ -17,4 +17,4 @@ Start with `current_best_business.md` for the single highest-conviction idea rig
 ## Methodology notes
 - Scoring is a 7-dimension composite (startup cost, time to first revenue, competition, scalability ceiling, likelihood of success, AI-leverage, customer acquisition speed) — see the top of `opportunities.md` for the rubric.
 - Every claim is marked as either sourced (with a link) or an estimate/directional claim. Sparse evidence is never a reason to skip logging an idea — gaps are noted explicitly so future runs know what to validate next.
-- First run: 2026-06-27. Most recent run: 2026-06-28.
+- First run: 2026-06-27. Most recent run: 2026-06-29.
